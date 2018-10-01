@@ -1,0 +1,36 @@
+h1 {
+  color: white;
+}
+.navbar-nav {
+  margin-left: 65%;
+  padding-top: 8px;
+}
+.row {
+  width: 100%;
+}
+#nameTop {
+  padding-left: 20px;
+}
+body {
+  background-image: url("../images/background.jpg");
+}
+#content {
+  margin-top: 40px;
+  background: white;
+  border: 2px solid rgb(102, 102, 102);
+  padding: 15px;
+}
+#bio {
+  /* padding-left:15px; */
+}
+#secHead {
+  padding-left: 15px;
+}
+
+.portimg {
+  margin-top: 15px;
+  padding-left: 15px;
+}
+img {
+  margin-top: 10px;
+}
