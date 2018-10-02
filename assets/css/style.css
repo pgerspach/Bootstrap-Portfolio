@@ -34,3 +34,17 @@ body {
 img {
   margin-top: 10px;
 }
+.imgOver{
+  position: absolute;
+  bottom: 20px;
+  width:266px;
+  text-align: center;
+  color:white;
+  background:rgb(102, 102, 102);
+  padding: 10px;
+}
+.subcolor{
+  background:#ef7e51;
+  border-color: rgb(102, 102, 102);
+  border-width: 2px;
+}
