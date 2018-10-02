@@ -2,9 +2,8 @@ h1 {
   color: white;
 }
 .navbar-nav {
-  margin-left: 65%;
-  padding-top: 8px;
-}
+padding-top:8px;
+} 
 .row {
   width: 100%;
 }
@@ -20,9 +19,7 @@ body {
   border: 2px solid rgb(102, 102, 102);
   padding: 15px;
 }
-#bio {
-  /* padding-left:15px; */
-}
+
 #secHead {
   padding-left: 15px;
 }
