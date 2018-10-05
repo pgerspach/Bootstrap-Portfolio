@@ -45,10 +45,16 @@ img {
   border-width: 2px;
 }
 
+
 @media (max-width:768px){
   .nameColumn{
 text-align: center;
   }
 }
-
-
+.portLink{
+  font-display:normal;
+  color:white;
+}
+.portLink:hover{
+  color:#ef7e51;
+}
