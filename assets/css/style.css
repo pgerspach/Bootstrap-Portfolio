@@ -4,8 +4,8 @@ h1 {
 .navbar-nav {
   padding-top: 8px;
 }
-.row.navRow{
-  width:100%;
+.row.navRow {
+  width: 100%;
 }
 
 body {
@@ -16,22 +16,20 @@ body {
   background: white;
   border: 2px solid rgb(102, 102, 102);
   padding-top: 15px;
-  padding-bottom:15px;
-  margin-bottom:40px;
+  padding-bottom: 15px;
+  margin-bottom: 40px;
 }
 #secHead {
   padding-left: 15px;
 }
 .portImg {
   margin-top: 15px;
-  width:calc(100%);
+  width: calc(100%);
 }
 img {
   margin-top: 6px;
-  
 }
 .imgOver {
-  
   position: absolute;
   bottom: 20px;
   width: calc(100% - 30px);
@@ -39,24 +37,27 @@ img {
   color: white;
   background: rgb(102, 102, 102);
   padding-top: 10px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 .subcolor {
   background: #ef7e51;
   border-color: rgb(102, 102, 102);
   border-width: 2px;
 }
-
-
-@media (max-width:768px){
-  .nameColumn{
-text-align: center;
+.portLink {
+  font-display: normal;
+  color: white;
+}
+.portLink:hover {
+  color: #ef7e51;
+}
+@media (max-width: 768px) {
+  .nameColumn,
+  .nameTop {
+    text-align: center;
   }
-}
-.portLink{
-  font-display:normal;
-  color:white;
-}
-.portLink:hover{
-  color:#ef7e51;
+  .navRow{
+    width:calc(100%);
+    margin:0;
+  }
 }
