@@ -16,6 +16,8 @@ body {
   background: white;
   border: 2px solid rgb(102, 102, 102);
   padding-top: 15px;
+  padding-bottom:15px;
+  margin-bottom:40px;
 }
 #secHead {
   padding-left: 15px;
