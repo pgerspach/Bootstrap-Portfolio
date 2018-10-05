@@ -4,7 +4,7 @@ h1 {
 .navbar-nav {
   padding-top: 8px;
 }
-.row{
+.row.navRow{
   width:100%;
 }
 
@@ -20,24 +20,35 @@ body {
 #secHead {
   padding-left: 15px;
 }
-.portimg {
+.portImg {
   margin-top: 15px;
-  padding-left: 15px;
+  width:calc(100%);
 }
 img {
-  margin-top: 10px;
+  margin-top: 6px;
+  
 }
 .imgOver {
+  
   position: absolute;
   bottom: 20px;
-  width: 266px;
+  width: calc(100% - 30px);
   text-align: center;
   color: white;
   background: rgb(102, 102, 102);
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom:10px;
 }
 .subcolor {
   background: #ef7e51;
   border-color: rgb(102, 102, 102);
   border-width: 2px;
 }
+
+@media (max-width:768px){
+  .nameColumn{
+text-align: center;
+  }
+}
+
+
