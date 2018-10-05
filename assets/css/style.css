@@ -2,14 +2,12 @@ h1 {
   color: white;
 }
 .navbar-nav {
-padding-top:8px;
-} 
-.row {
-  width: 100%;
+  padding-top: 8px;
 }
-#nameTop {
-  padding-left: 20px;
+.row{
+  width:100%;
 }
+
 body {
   background-image: url("../images/background.jpg");
 }
@@ -19,11 +17,9 @@ body {
   border: 2px solid rgb(102, 102, 102);
   padding-top: 15px;
 }
-
 #secHead {
   padding-left: 15px;
 }
-
 .portimg {
   margin-top: 15px;
   padding-left: 15px;
@@ -31,23 +27,17 @@ body {
 img {
   margin-top: 10px;
 }
-.imgOver{
+.imgOver {
   position: absolute;
   bottom: 20px;
-  width:266px;
+  width: 266px;
   text-align: center;
-  color:white;
-  background:rgb(102, 102, 102);
+  color: white;
+  background: rgb(102, 102, 102);
   padding: 10px;
 }
-.subcolor{
-  background:#ef7e51;
+.subcolor {
+  background: #ef7e51;
   border-color: rgb(102, 102, 102);
   border-width: 2px;
-}
-nav.navbar.navbar-expand-sm.bg-dark.navbar-dark{
-
-  padding-left:20px;
-  padding-right:20px;
-
 }
